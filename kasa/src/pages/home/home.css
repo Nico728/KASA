@@ -2,3 +2,15 @@ body{
     margin: 0;
     padding: 0;
 }
+
+.listAccommodation {
+    background-color: #f7f7f7;
+    border-radius: 25px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 50px 60px; 
+    padding: 55px 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid blue;
+}
