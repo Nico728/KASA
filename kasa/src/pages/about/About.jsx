@@ -12,9 +12,11 @@ const About = () => {
             <Header />
             <Banner image={bannerAbout} titre="" />
             <div>
-                {/*aboutData.map((about) => 
+                {aboutData.map((about) => {
+                    return(
                     <Collapse key={about.id} titre={about.title} description={about.description} />
-                )*/}
+                )}
+                )}
             </div>
             <Footer />
         </div>
