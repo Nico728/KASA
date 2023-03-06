@@ -4,6 +4,7 @@ import Footer from '../../components/footer/Footer';
 import Header from '../../components/header/Header';
 import Carrousel from '../../components/carrousel/Carrousel';
 import ListAccommodation from '../../datas/api/accommodation.json';
+import './accommodation.css';
 
 const Accommodation = () => {
     const identifiant =useParams();
@@ -13,7 +14,7 @@ const Accommodation = () => {
         <div>
             <Header />
             {logementId ? (
-                <div>
+                <div className='logement_carrousel'>
                     <Carrousel images={logementId?.pictures} />
                 </div>
             ) : <Navigate replace to="/error" />
