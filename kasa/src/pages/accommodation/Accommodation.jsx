@@ -6,8 +6,8 @@ import Carrousel from '../../components/carrousel/Carrousel';
 import ListAccommodation from '../../datas/api/accommodation.json';
 
 const Accommodation = () => {
-    const id =useParams();
-    const logementId = ListAccommodation.find((logement) => logement.id === id.id);
+    const identifiant =useParams();
+    const logementId = ListAccommodation.find((logement) => logement.id === identifiant.id);
 
     return (
         <div>
@@ -17,7 +17,7 @@ const Accommodation = () => {
                     <Carrousel images={logementId?.pictures} />
                 </div>
             ) : <Navigate replace to="/error" />
-        }
+            }
             <Footer />
         </div>
     );
