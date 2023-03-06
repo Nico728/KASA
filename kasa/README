@@ -1,0 +1,6 @@
+Pour lancer le server suivez les étapes suivantes :
+
+1. Ouvrir le terminal
+2. Lancer "npm install"
+3. Lancer "npm run dev"
+4. Appuyer sur control + clique droit sur le lien dans le local du terminal
