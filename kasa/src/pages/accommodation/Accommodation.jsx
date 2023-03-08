@@ -17,7 +17,7 @@ const Accommodation = () => {
                 <div className='logement_carrousel'>
                     <Carrousel images={logementId?.pictures} />
                 </div>
-            ) : <Navigate replace to="/error" />
+            ) : <Navigate replace to="*" />
             }
             <Footer />
         </div>

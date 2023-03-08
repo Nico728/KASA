@@ -14,7 +14,7 @@ const About = () => {
             <div>
                 {aboutData.map((about) => {
                     return(
-                    <Collapse key={about.id} titre={about.title} description={about.description} />
+                    <Collapse key={about.title} titre={about.title} description={about.description} />
                 )}
                 )}
             </div>
