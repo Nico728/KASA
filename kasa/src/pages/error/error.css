@@ -11,7 +11,7 @@ h1 {
     margin: 0;
 }
 
-p {
+.error_texte {
     color: #ff6060;
     font-size: 36px;
     margin: 0;
@@ -30,7 +30,7 @@ p {
         font-size: 96px;
     }
 
-    p{
+    .error_texte{
         font-size: 18px;
         padding-top: 10px;
         margin: 0px 25%;

@@ -20,7 +20,6 @@ const router = createBrowserRouter([
     element: <Accommodation />,
     errorElement: <Error />
   },
- 
   {
     path: "*",
     element: <Error />

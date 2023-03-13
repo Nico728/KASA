@@ -11,7 +11,6 @@ body{
     gap: 50px 60px; 
     padding: 55px 50px;
     margin: 40px 10%;
-    border: 1px solid blue;
 }
 
 @media screen and (max-width: 1000px) {

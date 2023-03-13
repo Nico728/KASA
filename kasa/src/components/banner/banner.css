@@ -4,7 +4,6 @@
     height: 223px;
     margin: 40px 10%;
     text-align: center;
-    border: 1px solid red;
 }
 
 .banner_img {
@@ -30,7 +29,7 @@
     font-size: 48px;
     left: 50%;
     position: absolute;
-    top: 50%;
+    top: 30%;
     transform: translate(-50%, -50%);
 }
 

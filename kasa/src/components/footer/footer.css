@@ -16,9 +16,10 @@ footer {
     margin-bottom: 2%;
 }
 
-p {
+.footer_texte {
     color: white;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
+    font-size: 24px;
 }
