@@ -67,8 +67,8 @@ const Accommodation = () => {
                         </div>
                     </div>
                     <div className='logement_collapse'>
-                        <Collapse titre="Description" description={logementId.description} />
-                        <Collapse titre="Équipements" description={listEquipement} />
+                        <Collapse titre="Description" description={logementId.description} accoStyle='accoStyle'/>
+                        <Collapse titre="Équipements" description={listEquipement} accoStyle='accoStyle'/>
                     </div>
                 </div>
             ) : <Navigate replace to="*" />
